@@ -1,5 +1,5 @@
-FROM alpine:3.9
-LABEL maintainer="ITBM"
+FROM alpine:3.10
+LABEL maintainer="Todd Heslin<todd@beingremarkable.me>"
 
 RUN apk update \
 	&& apk add coreutils \
