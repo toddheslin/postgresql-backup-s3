@@ -3,7 +3,7 @@ LABEL maintainer="ITBM"
 
 RUN apk update \
 	&& apk add coreutils \
-	&& apk add postgresql-client \
+	&& apk add postgresql-client-12 \
 	&& apk add python py2-pip && pip install awscli && apk del py2-pip \
 	&& apk add openssl \
 	&& apk add curl \
